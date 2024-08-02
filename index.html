@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dwip Mondal - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/dwip-logo.png" class="logo" alt="Logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Computer Science Student</p>
+                <h1>Hi, I'm <span>Dwip Mondal</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/12.jpg" alt="Dwip Mondal">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>Enthusiastic Computer Science student with a passion for exploring the realms of technology. Eager to
+                    unravel the complexities of coding, algorithms, and artificial intelligence. Ambitious learner driven by
+                    curiosity, seeking to understand and contribute to the ever-evolving field of computer science.
+                    Committed to continuous growth and excited about the endless possibilities that technology brings to the
+                    world.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <a href="https://github.com/DwipMondal18"><div class="button-group">
+                            Project
+                            <span class="top"></span>
+                            <span class="right"></span>
+                            <span class="bottom"></span>
+                            <span class="left"></span>
+                          </div></a>                          
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>SWAMI VIVEKANANDA INSTITUTE OF SCIENCE AND TECHNOLOGY.<br>DIPLOMA [Computer Science and Engineering] (2023-2025)</span>
+                                <br>● Pursuing comprehensive coursework in computer science and engineering, including programming, algorithms, data structures, and system.
+                                <br>● Engaged in hands-on projects and research to apply theoretical knowledge to real-world problems.
+                            </li>
+                            <li><span>BAMANAGAR SUBALA HIGH SCHOOL.<br>Higher Secondary[pure science] (2023). Secondary(2021)</span>
+                                <br>● Strong academic record with a focus on science and mathematics.
+                                <br>● Participation in extracurricular activities such as science fairs and technical workshops.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="container">
+            <h2 class="sub-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="skill-name">HTML</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" data-per="90"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" data-per="70"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" data-per="70"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">C</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" data-per="90"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Python</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" data-per="65"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Java</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="40%" data-per="40"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title">Contact Me</h2>
+                    <p><i class='bx bxs-send'></i>dwipmondal65@gmail.com</p>
+                    <p><i class='bx bxs-phone'></i>7586098743</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="bx bxl-facebook"></i></a>
+                        <a href="#"><i class="bx bxl-instagram"></i></a>
+                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/dwip-mondal-3161552b9/"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                    <a href="/images/my-cv.pdf" download class="btn btn3">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Copyright">
+        <p>Copyright &copy; 2024-2025 by Dwip | All rights reserved</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
